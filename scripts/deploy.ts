@@ -11,6 +11,8 @@ async function main() {
 
 // We recommend this pattern to be able to use async/await everywhere
 // and properly handle errors.
+
+//contract address: 0x4098FE92a365e72FAAb610B608abB07d7420E415
 main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
